@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions
              (
             	 features="src/test/resources/Business_Logic",	 
-            	 tags="@RegressionTest",
+            	 
             	 glue="map",
             	 plugin="pretty",
             	 monochrome=true
